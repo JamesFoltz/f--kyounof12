@@ -11,8 +11,8 @@ jobs:
       - name: Minify JavaScript
         uses: nizarmah/auto-minify@v3
         with:
-          directory: '/'          # Input directory
-          output: '/'            # Output directory for minified files
+          directory: '.'          # Input directory
+          output: '.'            # Output directory for minified files
           js_engine: 'babel'        # Engine: babel or uglify-js
           overwrite: false          # Keep original; true overwrites input
 
