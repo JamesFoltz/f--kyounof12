@@ -1,6 +1,9 @@
 name: Minify JS
 on: [push]
 
+permissions:
+  contents: write
+
 jobs:
   minify:
     runs-on: ubuntu-latest
